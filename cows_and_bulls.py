@@ -7,8 +7,6 @@ def cows_bulls():
     print('Welcome to the Cows and Bulls Game!')
 
     while True:
-        print((randNum))
-
         guessesNum = input('Guess a number:\n')
         numLen = len(guessesNum)
         if(numLen!=4):
