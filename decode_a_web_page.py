@@ -6,5 +6,5 @@ r = requests.get(url)
 r_html = r.text
 
 soup = BeautifulSoup(r_html, 'html.parser')
-for tit in soup.find_all('title'):
-    print(tit.text)
+for title in soup.find_all('title'):
+    print(title.text)
